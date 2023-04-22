@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div>
+      <div class="forBigFlex">
+        <div class="leftDiv">
+          <div class="small_grid1">
+            <img class="cub" src=".//img/logo.svg" alt="" />
+            <div><p class="firstP">Admin</p></div>
+          </div>
+
+          <div>
+            <img class="door" src="./img/door.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="rightDiv">
+          <div class="container">
+            <div class="nav">
+              <div>
+                <h2 class="first_h2">Overview</h2>
+              </div>
+
+              <div>
+                <button class="navFirstButton">
+                  <img src="./img/dots.svg" alt="photo" />
+                </button>
+                <button class="navSecondButton">Add</button>
+              </div>
+            </div>
+
+            <div class="for_books">
+              <!-- <div class="for_left_img">
+                <img
+                  class="photos"
+                  src="https://pbs.twimg.com/media/ESUtXSKXQAEXhYe.jpg:large"
+                  alt=""
+                />
+              </div>
+
+              <div class="for_right_text">
+                <h3 class="title">
+                  The Big Book of Dashboards: Visualizing Your Data Using
+                  Real-World Business Scenarios
+                </h3>
+
+                <p class="author">by Steve Wexler , Jeffrey Shaffer, et al.</p>
+                <p class="data">Apr 24, 2017</p>
+                <p class="reyting"><img src="./img/favourites.png" alt="" /></p>
+                <p class="price">25.5$</p>
+
+                <div class="for_books_button">
+                  <button class="editButton">Edit</button>
+                  <button class="deleteButton">Delete</button>
+                </div>
+              </div> -->
+            </div>
+            <div class="button-container">
+              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal">
+      <div class="modal_center">
+        <img
+          class="closeIcon"
+          src="./img/close_FILL0_wght400_GRAD0_opsz48.png"
+          alt="photo"
+        />
+        <form id="form" action="modal">
+          <input
+            id="name_book"
+            class="input_style"
+            placeholder="Name of book"
+            type="text"
+          />
+          <input
+            id="author"
+            class="input_style"
+            placeholder="Author"
+            type="text"
+          />
+          <input
+            id="photo"
+            class="input_style"
+            placeholder="Photo"
+            type="file"
+          />
+          <input id="date" class="input_style" placeholder="Date" type="date" />
+          <input
+            id="reyting"
+            class="input_style"
+            placeholder="Reyting"
+            max="5"
+            min="0"
+            type="number"
+          />
+          <input
+            id="price"
+            class="input_style"
+            placeholder="Price"
+            type="number"
+          />
+          <select name="" id="category">
+            <option value="drama">Drama</option>
+            <option value="love">Love</option>
+            <option value="historical">Historical</option>
+          </select>
+        </form>
+
+        <img src="" id="showPhoto" alt="photo" />
+        <button class="save_button">Save</button>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
 </html>

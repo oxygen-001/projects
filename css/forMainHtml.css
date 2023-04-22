@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: rgb(147, 142, 142); */
+  font-family: "Rubik", sans-serif;
+}
+
+/* for-Header */
+
+.container {
+  width: 1450px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+
+.searchInput {
+  width: 670px;
+  height: 48px;
+  background: #f8fafd;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  border: none;
+  background-image: url(../svg/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  padding-left: 48px;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.24);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.navButton {
+  width: 99px;
+  height: 40px;
+  background: #0d75ff;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 400;
+}
+
+.for_darkmood_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.forNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.numbersBooks {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222531;
+}
+
+.order_button {
+  width: 165px;
+  height: 34px;
+  background: #a6b0c3;
+  border-radius: 4px;
+  border: none;
+}
+
+.number_of_books {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 606px;
+  padding-left: 539px;
+  margin-top: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button1 {
+  background-color: cornflowerblue;
+  border: none;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: white;
+  /* cursor: pointer; */
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button1:hover {
+  background-color: dodgerblue;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* for darkmood */
+
+body {
+  /* background-color: #f5f5f5; */
+  color: #222;
+}
+
+/* Uchun lightmode */
+.dark-mode {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+/* Uchun darkmode */
+.dark-mode header nav {
+  background-color: #111;
+  color: #f5f5f5;
+}
+
+.dark-mode .searchInput {
+  background-color: #111;
+  color: #f5f5f5;
+}
+
+/* Darkmode tugma uchun */
+.dark-mode button {
+  background-color: #666;
+  box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.3);
+  color: #f5f5f5;
+}
+
+/* Darkmode, bulutli tugma uchun */
+.dark-mode .order_button {
+  background-color: #888;
+}
+
+/* Darkmode logo */
+.dark-mode img {
+  filter: invert(1);
+}
+
+/* To'g'ri rangli tugmani navbarda ko'rsatish uchun */
+.dark-mode .for_darkmood_div img {
+  filter: invert(1);
+}
+
+/* for main */
+
+.bookmarks {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.p_of_bookmarks {
+  width: 218px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155.6%;
+  /* or 22px */
+  color: #000000;
+  margin-top: 5px;
+}
+
+.saveBookAuthor {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #757881;
+  margin-top: 2px;
+}
+
+.save_book_div {
+  width: 218px;
+  height: 72px;
+  background: #f8fafd;
+  border-radius: 4px;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftDiv {
+  width: 268px;
+}
+
+.books_title_h3 {
+  padding-top: 37px;
+}
+
+.bookmarks_button1 {
+  width: 120px;
+  height: 37px;
+  background: #ffd80d;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+}
+
+.bookmarks_button2 {
+  background: rgba(13, 117, 255, 0.05);
+  border-radius: 4px;
+  width: 120px;
+  height: 37px;
+  color: #0d75ff;
+  border: none;
+  font-weight: bold;
+}
+
+.bookmarks_button3 {
+  display: block;
+  background: #75828a;
+  border-radius: 4px;
+  width: 246px;
+  height: 37px;
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.main_flex {
+  display: flex;
+}
+
+.rightDiv {
+  padding-left: 100px;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,282px);
+  gap: 35px;
+
+}
+
+.for_book_box {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 282px;
+  height: 431px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.img_of_books{
+  padding-left: 28px;
+}
